@@ -78,5 +78,18 @@ const products = [
       "https://res.cloudinary.com/dyl97ofpv/image/upload/v1686921747/Online_Store/2/1648023235ba32327d7aecda5b9de9913efa316d9e_thumbnail_900x_oxiajy.webp"],
     },
 
+
+    {
+      id: 8,
+      productName: "T-shirt",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elite. Sequi, perferendis beatae asperiores.",
+      price: 450,
+      imageLink: ["https://res.cloudinary.com/dyl97ofpv/image/upload/v1686921745/Online_Store/3/Paper_Plane_of_Liberty_Print_Crew_Neck_Short_Sleeve_T-Shirts_-_Grey___XL_zedv4p.png",
+      "https://res.cloudinary.com/dyl97ofpv/image/upload/v1686921744/Online_Store/3/Paper_Plane_of_Liberty_Print_Crew_Neck_Short_Sleeve_T-Shirts_-_Khaki___XL_wtas2i.png",
+      "https://res.cloudinary.com/dyl97ofpv/image/upload/v1686921743/Online_Store/3/Paper_Plane_of_Liberty_Print_Crew_Neck_Short_Sleeve_T-Shirts_-_White___XL_ts3anc.png",
+      "https://res.cloudinary.com/dyl97ofpv/image/upload/v1686921743/Online_Store/3/Paper_Plane_of_Liberty_Print_Crew_Neck_Short_Sleeve_T-Shirts_-_Black___XL_k3yxsz.png"],
+    },
+
    ];
    module.exports = products;
