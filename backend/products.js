@@ -60,10 +60,10 @@ const products = [
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elite. Sequi, perferendis beatae asperiores.",
       price: 350,
-      imageLink: ["https://res.cloudinary.com/dyl97ofpv/image/upload/v1686921745/Online_Store/4/1646880634f3ecf23038717f7adbcf3658effab2e7_thumbnail_900x_egyn95.webp",
-      "https://res.cloudinary.com/dyl97ofpv/image/upload/v1686921745/Online_Store/4/164430580182db3b5a5192e660a87c832a397044b6_thumbnail_900x_jnrcrb.webp",
-      "https://res.cloudinary.com/dyl97ofpv/image/upload/v1686921744/Online_Store/4/1646822799c97e5f9754d3b3314b4e6ffd848ad22d_thumbnail_900x_sgugao.webp",
-      "https://res.cloudinary.com/dyl97ofpv/image/upload/v1686921744/Online_Store/4/163826656927114e9da27ea115f55404141ba11264_thumbnail_900x_vrikpo.webp"],
+      imageLink: ["https://res.cloudinary.com/dyl97ofpv/image/upload/v1686921749/Online_Store/1/Mens_NASA_Space_Bear_Print_O-Neck_Casual_Loose_Short_Sleeve_T-Shirt_rxmpdq.png",
+      "https://res.cloudinary.com/dyl97ofpv/image/upload/v1686921745/Online_Store/1/NASA_Space_Bear_Print_T-Shirt_mcfz8h.jpg",
+      "https://res.cloudinary.com/dyl97ofpv/image/upload/v1686921745/Online_Store/1/Mens_NASA_Space_Bear_Print_O-Neck_Casual_Loose_Short_Sleeve_T-Shirt_twd7hb.jpg",
+      "https://res.cloudinary.com/dyl97ofpv/image/upload/v1686921745/Online_Store/1/Mens_NASA_Space_Bear_Print_O-Neck_Casual_Loose_Short_Sleeve_T-Shirt_1_m3ypz3.jpg"],
     },
 
    ];
