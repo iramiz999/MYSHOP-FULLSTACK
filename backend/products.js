@@ -66,5 +66,17 @@ const products = [
       "https://res.cloudinary.com/dyl97ofpv/image/upload/v1686921745/Online_Store/1/Mens_NASA_Space_Bear_Print_O-Neck_Casual_Loose_Short_Sleeve_T-Shirt_1_m3ypz3.jpg"],
     },
 
+    {
+      id: 7,
+      productName: "T-shirt",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elite. Sequi, perferendis beatae asperiores.",
+      price: 150,
+      imageLink: ["https://res.cloudinary.com/dyl97ofpv/image/upload/v1686921751/Online_Store/2/1658329192737168ff6ad063452563108e1de4d132_thumbnail_900x_l6homy.webp",
+      "https://res.cloudinary.com/dyl97ofpv/image/upload/v1686921748/Online_Store/2/164802324294a9e00cd18e3bdacdb07faadc6ea08e_thumbnail_900x_gxucpx.webp",
+      "https://res.cloudinary.com/dyl97ofpv/image/upload/v1686921747/Online_Store/2/16480232420809ac54cac58a758d88fbee070f7f7a_thumbnail_900x_q83jt1.webp",
+      "https://res.cloudinary.com/dyl97ofpv/image/upload/v1686921747/Online_Store/2/1648023235ba32327d7aecda5b9de9913efa316d9e_thumbnail_900x_oxiajy.webp"],
+    },
+
    ];
    module.exports = products;
