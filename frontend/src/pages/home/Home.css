@@ -2,4 +2,5 @@
     rotate: 0.5deg;
     scale: 1.01;
     transition: 0.3s ease-in-out;
+    cursor: pointer;
 }

@@ -72,6 +72,7 @@ const Home = () => {
         {data.map((item, index) => {
           return (
             <Card
+            
               className="card"
               key={item.id}
               sx={{ maxWidth: 277, mb: 6, mx: 2 }}
