@@ -1,11 +1,11 @@
 import  { useState, useEffect } from 'react';
 import { useGetproductsByNameQuery } from "../../Redux/productsApi";
+import { Box, CircularProgress, Typography } from '@mui/material';
 
 
 const AddProduct = () => {
   const [mydata, setData] = useState('');
   const { data, error, isLoading } = useGetproductsByNameQuery();
-
   useEffect(() => {
     // Function to send data to API
     const sendDataToAPI = async () => {
@@ -35,6 +35,25 @@ const AddProduct = () => {
     // Call the function to send data when the component mounts
     sendDataToAPI();
   }, [data]);
+  if (isLoading) {
+    return (
+      <Box sx={{ display: "flex" }}>
+        <CircularProgress />
+      </Box>
+    );
+  }
+
+  if (error) {
+    return (
+      <Box sx={{ display: "flex" }}>
+        <Typography variant="h1" color="error">
+          {" "}
+          ERROR{" "}
+        </Typography>
+      </Box>
+    );
+  }
+ 
   
   const handleChange = (event) => {
     setData(event.target.value);
