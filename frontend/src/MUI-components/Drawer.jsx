@@ -9,13 +9,13 @@ import {
   Brightness4,
   Brightness7,
   Home,
- 
+
 } from "@mui/icons-material";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 import { useLocation, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
-
+import AddCircleIcon from '@mui/icons-material/AddCircle';
 
 // @ts-ignore
 const Drawerr = ({
@@ -26,7 +26,7 @@ const Drawerr = ({
   hideDrawer,
 }) => {
   // @ts-ignore
-  const {selectedProducts} = useSelector((state) => state.carttt)
+  const { selectedProducts } = useSelector((state) => state.carttt)
 
   const currentLocation = useLocation();
 
@@ -35,9 +35,12 @@ const Drawerr = ({
 
   const myList = [
     { text: "Home", icon: <Home />, path: "/" },
-    { text: "Cart", icon: <Badge badgeContent={selectedProducts.length} color="secondary">
-    <ShoppingCartIcon />
-  </Badge>, path: "/cart" },
+    {
+      text: "Cart", icon: <Badge badgeContent={selectedProducts.length} color="secondary">
+        <ShoppingCartIcon />
+      </Badge>, path: "/cart"
+    },
+    { text: "Add Products", icon: <AddCircleIcon />, path: "/addproduct" },
 
   ];
 
@@ -89,12 +92,12 @@ const Drawerr = ({
         {myList.map((item) => {
           return (
             <ListItem
-            key={item.path}
+              key={item.path}
               sx={{
                 bgcolor:
                   currentLocation.pathname === item.path
                     ? // @ts-ignore
-                      theme.palette.favColor.main
+                    theme.palette.favColor.main
                     : null,
               }}
               disablePadding
@@ -111,7 +114,7 @@ const Drawerr = ({
           );
         })}
 
-        
+
       </List>
     </Drawer>
   );
